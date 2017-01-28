@@ -16,7 +16,7 @@ var html = fs.readFile("./html.html", function(err, html){
     
     res.writeHead(200, {"Content-type":"application/html" });
     
-    res.write(JSON.stringify({nombre:"Uriel", username:"uriel"}));
+    res.write(JSON.stringify({nombre:"0001", username:"0001"}));
     res.end();
     });
     
